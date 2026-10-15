@@ -964,7 +964,6 @@ dt dd {
 * ========================= */
 @media (max-width: 768px) {
     body {
-        overflow: hidden;
         font-size: 1.2rem;
     }
     .header-menu {
