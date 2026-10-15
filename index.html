@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Portfolio</title>
+ 
+   <!-- リセットCSS 読み込み -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css">
+
+  <!-- style.css 読み込み -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Google Fonts 読み込み -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+   <!-- script.js 読み込み -->
+    <script src="script.js"></script>
+</head>
+  
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <span>ミライ</span>安心パートナーズ
+            </a>
+            <ul class="header-menu">
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">サービス</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+            <button class="hamburger" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="sp-nav">
+                <ul class="sp-nav-menu">
+                    <li><a href="#">ホーム</a></li>
+                    <li><a href="#">サービス</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container hero-inner">
+                <div class="circle-box">
+                    <div class="sub-title">
+                        <p>今と未来の<br><span class="highlight">家計</span>に<span class="highlight">安心</span>を。</p>
+                        <p class="emphasis">住宅ローン</p>
+                    </div>
+                    <div class="large emphasis catch"><span class="dot-text">無料</span>相談</div>
+                </div>
+                <ul class="award">
+                    <li class="award-card">
+                        <div class="award-text">
+                            <p>顧客満足度<br><span class="award-num pop">96.8</span>%<br>※</p>
+                        </div>
+                    </li>
+                    <li class="award-card">
+                        <div class="award-text">
+                            <p>累計相談実績<br><span class="award-num pop">15,000</span><br>件突破</p>
+                        </div>
+                    </li>
+                    <li class="award-card">
+                        <div class="award-text">
+                            <p>対面・オンライン<br><span class="award-bold">全国対応</span></p>
+                        </div>
+                    </li>
+                </ul>
+                <p class="note">※　2026年5月〜9月 面談者アンケート。回答100名</p>
+                <div class="btn">
+                    <a href="#">
+                        1分で予約！無料相談を申し込む
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="problem">
+            <div class="container problem-inner">
+                <h1><span class="border-line">住宅ローン</span>に<br>こんなお悩みありませんか？</h1>
+                <ul class="problem-box">
+                    <li class="problem-card">
+                        10年前に組んだ住宅ローン、<br>借り換えたら本当に安くなる？
+                    </li>
+                    <li class="problem-card">
+                        これから家を買うけど、<br>無理なく返せる金額はいくら？
+                    </li>
+                    <li class="problem-card">
+                        変動金利が上がると聞いて不安……<br>固定金利に切り替えるべき？
+                    </li>
+                    <li class="problem-card">
+                        物価高で毎月の返済がカツカツ、<br>教育費と両立できるか心配……
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="solution">
+            <div class="container solution-inner">
+                <h1>ミライ安心パートナーズの無料相談で、<br><span class="large">お悩みが<span class="large emphasis">安心</span>に変わります！</span></h1>
+                <div class="solution-box">
+                    <div class="solution-group">
+                        <h2><span class="border-dotted-line">今の不安解消</span></h2>
+                        <ul class="solution-list">    
+                            <li class="solution-card"><span class="text-bold">毎月の返済額</span>を最適化</li>
+                            <li class="solution-card">最適な住宅ローンを一覧で<span class="text-bold">一括比較</span></li>
+                            <li class="solution-card">面倒なシミュレーションや比較手続を<span class="text-bold">代行</span></li>
+                        </ul>
+                    </div>
+                    <div class="solution-group">
+                        <h2><span class="border-dotted-line">将来の安心</span></h2>
+                        <ul class="solution-list">    
+                            <li class="solution-card"><span class="text-bold">金利変更リスク</span>の不安を解消</li>
+                            <li class="solution-card"><span class="text-bold">教育費や老後資金</span>の見通しが立つ</li>
+                            <li class="solution-card"><span class="text-bold">無理のない適正な借入額</span>がわかる</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btn-copy emphasis">1分で完了・強引な勧誘は一切ありません</div>
+                <div class="btn">
+                    <a href="#">
+                        無料相談を申し込む
+                    </a>
+                </div>
+            </div>    
+        </section>
+        <section id="feature">
+            <div class="container feature-inner">
+                <div class="feature-title">
+                    <div class="feature-subtitle border-dotted-line">ミライ安心パートナーズ<span class="emphasis">住宅ローン無料相談</span>が</div>
+                    <h1>選ばれる理由</h1>
+                </div>
+                <ul class="feature-box">
+                    <li class="feature-group">
+                        <div class="feature-card">
+                            <div class="point pop">01</div>
+                            <div class="feature-text">
+                                <h2>住宅ローンと家計の<br>「今と未来」をすっきり可視化</h2>
+                                <p>国家資格保有のプロ（FP）が現在の家計と将来の計画をヒアリング。<br>「毎月いくら安くなるか」「将来の教育費や老後資金がどう変わるか」を、ひと目でわかるシンプルなグラフにしてお渡しします。</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="feature-group">
+                        <div class="feature-card">
+                            <div class="point pop">02</div>
+                            <div class="feature-text">
+                                <h2>金融機関の偏りゼロ！<br>完全中立の立場で最適プランを厳選</h2>
+                                <p>銀行窓口では自社商品しか提案できませんが、当社は特定の金融機関に偏らず、数あるローンの中からあなたに最も得になるベストなプランを完全中立の立場でご提案します。</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="feature-group">
+                        <div class="feature-card">
+                            <div class="point pop">03</div>
+                            <div class="feature-text">
+                                <h2>何度でも相談無料！<br>ご自宅から気軽にオンライン相談</h2>
+                                <p>相談料は何度でも完全0円。強引な勧誘や契約の強制は一切ありません。全国どこからでもご自宅で受講できるオンライン（Zoom）相談のほか、対面でのご相談にも対応しています。</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="arrow-card">
+                    <div class="arrow-text">本当に<br>無料なの？</div>
+                </div>
+            </div>
+        </section>
+        <section id="anxiety">
+            <div class="container anxiety-inner">
+                <ul class="anxiety-box">
+                    <li class="anxiety-card">
+                        完全無料ってちょっと怪しい……
+                    </li>
+                    <li class="anxiety-card">
+                        絶対に契約しないといけない？
+                    </li>
+                    <li class="anxiety-card">
+                        知識がなくても相談していいの？
+                    </li>
+                    <li class="anxiety-card">
+                        しつこい勧誘を受けないか心配……
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="benefit">
+            <div class="container benefit-inner">
+                <div class="benefit-title">
+                    <div class="btn-copy">ご安心ください！</div>
+                    <h1>強引な勧誘・無理な契約は<span class="emphasis">一切ありません</span></h1>
+                    <div class="benefit-subtitle border-dotted-line">無料で相談が可能なのは、きちんとした理由があります。</div>
+                    <p>
+                        当サービスは、提携する金融機関・各種パートナー企業からの手数料によって運営されています。<br>そのため、ご相談者様から相談料や仲介手数料などの費用をいただくことは一切ございません。
+                    </p>
+                </div>
+                <div class="benefit-box">
+                    <h3 class="benefit-box-heading">3つの安心のお約束</h3>
+                    <ul class="benefit-group">
+                        <li class="benefit-card">
+                            <h3>無理な勧誘・強引な契約は一切ありません</h3>
+                            <p>提案内容にご納得いただけない場合、お断りいただいても費用はかかりません。</p>
+                        </li>
+                        <li class="benefit-card">
+                            <h3>特定の金融機関をおすすめすることはありません</h3>
+                            <p>あくまで「お客様にとって一番お得か」の中立な目線でアドバイスします。</p>
+                        </li>
+                        <li class="benefit-card">
+                            <h3>強固なセキュリティで個人情報を保護</h3>
+                            <p>いただいたご相談内容や個人情報は厳重に管理しております。</p>
+                        </li>
+                    </ul>
+                </div>
+                <p>ご提案内容にご納得いただけない場合、お断りいただいても費用は1円も発生しません。<br>お客様のペースでじっくりご検討いただけます。</p>
+                <div class="btn">
+                    <a href="#">
+                        無料相談を予約する
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="voice">
+            <div class="container voice-inner">
+                <h1>実際にご相談いただいた方の声</h1>
+                <div class="voice-box">
+                    <div class="voice-slider">
+                        <div class="voice-card">
+                            <img src="./images/voice-1.png" alt="住宅ローンと教育費の相談をされた40代女性のお客様のイメージ">
+                            <p class="voice-text lead">ローン見直しと保険・NISAの整理で、教育費の不安が消えました！</p>
+                            <p class="voice-text comment">子どもの進学時期とローンの返済が重なるのが心配で相談しました。住宅ローンだけでなく、保険の見直しから資産運用まで家計全体をトータルでアドバイスしていただき、将来への見通しが立って本当に安心しました。</p>
+                            <p class="voice-text bottom">40代・女性｜住宅ローンと教育資金・家計の見直し</p>
+                        </div>
+                            <div class="voice-card">
+                            <img src="./images/voice-2.png" alt="定年後の返済や老後資金を相談された50代ご夫婦のイメージ">
+                            <p class="voice-text lead">定年後のローン返済と老後資金に残る不安がスッキリ解消！</p>
+                            <p class="voice-text comment">60歳以降のローン返済と老後の生活費に不安があり、Zoomで相談しました。繰り上げ返済のタイミングや賢い返済手順を具体的に提示してもらえ、暗中模索だった道筋が明確になりました。</p>
+                            <p class="voice-text bottom">50代・男性｜定年後の返済計画・老後資金準備</p>
+                        </div>
+                        <div class="voice-card">
+                            <img src="./images/voice-3.png" alt="マイホーム購入の予算を相談された30代ご夫婦のイメージ">
+                            <p class="voice-text lead">家予算のリアルがわかり、安心して家探しをスタートできました！</p>
+                            <p class="voice-text comment">結婚を機にマイホームを探し始めたものの、自分たちの年収でいくらのローンが組めるのか不安でした。FPさんが無理のない返済額をグラフで可視化してくれたおかげで、夫婦で納得して物件を選べるようになりました！</p>
+                            <p class="voice-text bottom">30代・女性｜住宅購入を検討</p>
+                        </div>
+                        <div class="voice-card">
+                            <img src="./images/voice-4.png" alt="ローンの借り換えを相談された20代男性のお客様のイメージ">
+                            <p class="voice-text lead">銀行窓口ではわからない、中立な比較で毎月の返済が減りました！</p>
+                            <p class="voice-text comment">自分でネット検索しても比較しきれず相談しました。特定の銀行を押し付けられることなく、完全に中立な立場で一番得なプランを提案してもらえて大満足です。毎月の返済額を抑えられて心にゆとりができました。</p>
+                            <p class="voice-text bottom">20代・男性｜住宅ローンの金利・借り換え検討</p>
+                        </div>
+                    </div>
+                    <!-- カード無限ループ用複製 -->
+                    <div class="voice-slider">
+                        <div class="voice-card">
+                            <img src="./images/voice-1.png" alt="住宅ローンと教育費の相談をされた40代女性のお客様のイメージ">
+                            <p class="voice-text lead">ローン見直しと保険・NISAの整理で、教育費の不安が消えました！</p>
+                            <p class="voice-text comment">子どもの進学時期とローンの返済が重なるのが心配で相談しました。住宅ローンだけでなく、保険の見直しから資産運用まで家計全体をトータルでアドバイスしていただき、将来への見通しが立って本当に安心しました。</p>
+                            <p class="voice-text bottom">40代・女性｜住宅ローンと教育資金・家計の見直し</p>
+                        </div>
+                            <div class="voice-card">
+                            <img src="./images/voice-2.png" alt="定年後の返済や老後資金を相談された50代ご夫婦のイメージ">
+                            <p class="voice-text lead">定年後のローン返済と老後資金に残る不安がスッキリ解消！</p>
+                            <p class="voice-text comment">60歳以降のローン返済と老後の生活費に不安があり、Zoomで相談しました。繰り上げ返済のタイミングや賢い返済手順を具体的に提示してもらえ、暗中模索だった道筋が明確になりました。</p>
+                            <p class="voice-text bottom">50代・男性｜定年後の返済計画・老後資金準備</p>
+                        </div>
+                        <div class="voice-card">
+                            <img src="./images/voice-3.png" alt="マイホーム購入の予算を相談された30代ご夫婦のイメージ">
+                            <p class="voice-text lead">家予算のリアルがわかり、安心して家探しをスタートできました！</p>
+                            <p class="voice-text comment">結婚を機にマイホームを探し始めたものの、自分たちの年収でいくらのローンが組めるのか不安でした。FPさんが無理のない返済額をグラフで可視化してくれたおかげで、夫婦で納得して物件を選べるようになりました！</p>
+                            <p class="voice-text bottom">30代・女性｜住宅購入を検討</p>
+                        </div>
+                        <div class="voice-card">
+                            <img src="./images/voice-4.png" alt="ローンの借り換えを相談された20代男性のお客様のイメージ">
+                            <p class="voice-text lead">銀行窓口ではわからない、中立な比較で毎月の返済が減りました！</p>
+                            <p class="voice-text comment">自分でネット検索しても比較しきれず相談しました。特定の銀行を押し付けられることなく、完全に中立な立場で一番得なプランを提案してもらえて大満足です。毎月の返済額を抑えられて心にゆとりができました。</p>
+                            <p class="voice-text bottom">20代・男性｜住宅ローンの金利・借り換え検討</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-copy">累計相談実績 15,000 件以上！</div>
+                <div class="btn">
+                    <a href="#">
+                        次はあなたも！無料相談はこちら
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="campain">
+            <div class="container campain-inner">
+                <div class="campain-card">
+                    <p>ただいま</p>
+                    <h1><span class="dot-text emphasis">お得</span>なキャンペーン開催中！</h1>
+                    <img src="./images/campain.png" alt="お得に住宅ローン無料相談ができる期間限定キャンペーンバナー画像">
+                </div>
+            </div>
+        </section>
+        <section id="flow">
+            <div class="container flow-inner">
+                <h1>まずは話を聞くだけでもOK！相談の流れはこちら</h1>
+                <ul class="flow-box">
+                    <li class="flow-card">
+                        <img src="./images/flow-1.png" alt="ステップ1：スマホやPCからのWeb予約のイメージ">
+                        <div class="flow-text">
+                            <h2>Webから1分予約</h2>
+                            <p>フォームから希望日時・ご相談方法（オンライン/対面）を選択</p>
+                        </div>
+                    </li>
+                    <li class="flow-card">
+                        <img src="./images/flow-2.png" alt="ステップ2：担当FPによる事前ヒアリングのイメージ">
+                        <div class="flow-text">
+                            <h2>事前ヒアリング</h2>
+                            <p>担当FPより確認のお電話またはメールにて簡単なご状況の確認</p>
+                        </div>
+                    </li>
+                    <li class="flow-card">
+                        <img src="./images/flow-3.png" alt="ステップ3：プロのFPによる無料個別相談のイメージ">
+                        <div class="flow-text">
+                            <h2>無料相談・シミュレーション</h2>
+                            <p>現在の状況をお聞きし、最適な返済プラン＆キャッシュフロー表をご提示</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="btn">
+                    <a href="#">
+                        1分で予約！無料相談を申し込む
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="faq">
+            <div class="container faq-inner">
+                <h1 class="pop">FAQ</h1>
+                <h2>よくあるご質問</h2>
+                <dl class="faq-box">
+                    <div class="faq-group">
+                        <dt>
+                            <p class="faq-qs lead">本当に費用はかかりませんか？</p>
+                        </dt>
+                        <dd>
+                            <p class="faq-as lead">はい、何度ご相談いただいても一切無料です。</p>
+                            <p class="comment">当サービスは提携する金融機関やパートナー企業からの手数料によって運営されているため、お客様から費用をいただくことは一切ございません。追加料金等も一切発生しませんので、どうぞ安心してご相談ください。</p>
+                        </dd>
+                    </div>
+                    <div class="faq-group">
+                        <dt>
+                            <p class="faq-qs lead">相談したら必ず借り換えや契約をしないといけませんか？</p>
+                        </dt>
+                        <dd>
+                            <p class="faq-as lead">いいえ、無理な勧誘や契約の強制は一切ございませんのでご安心ください。</p>
+                            <p class="comment">比較・シミュレーション結果をご覧いただいた上で、ご提案内容にご納得いただけない場合やお見送りされる場合でも費用は一切かかりません。あくまでお客様のご意向を最優先にご案内いたします。</p>
+                        </dd>
+                    </div>
+                    <div class="faq-group">
+                        <dt>
+                            <p class="faq-qs lead">住宅ローンの知識が全くないのですが、相談しても大丈夫ですか？</p>
+                        </dt>
+                        <dd>
+                            <p class="faq-as lead">もちろん大歓迎です！専門知識がなくてもまったく問題ありません。</p>
+                            <p class="comment">金利の種類や返済仕組みといった基本から、国家資格を持つプロがわかりやすく丁寧にご説明いたします。「何から調べればいいかわからない」という段階から、気軽にご相談いただけます。</p>
+                        </dd>
+                    </div>
+                    <div class="faq-group">
+                        <dt>
+                            <p class="faq-qs lead">まだ家を買うか決まっていませんが、相談できますか？</p>
+                        </dt>
+                        <dd>
+                            <p class="faq-as lead">はい、もちろん可能です。検討初期の段階からぜひご活用ください。</p>
+                            <p class="comment">「自分たちの適正な予算を知りたい」「賃貸と持ち家のどちらが得か比較したい」といったご相談も大歓迎です。購入を決める前の「無理のない資金計画づくり」から親身にサポートいたします。</p>
+                        </dd>
+                    </div>
+                </dl>
+                <h3>住宅ローンの不安、<span class="emphasis">一人で悩まずプロに話してみませんか？</span></h3>
+                <div class="btn">
+                    <a href="#">
+                        無料相談を予約する
+                    </a>
+                </div>
+            </div>    
+        </section>
+    </main>
+    
+    <footer>
+        <div id="footer-head">
+            <div class="container footer-head-inner">
+                <ul class="footer-head-box">
+                    <li class="footer-head-card">
+                        <a href="#">
+                            <img src="./images/footer-1.png" alt="リラックスして住宅ローン無料相談を受けるお客様のイメージ">
+                            <p>住宅ローン無料相談</p>
+                        </a>
+                    </li>
+                    <li class="footer-head-card">                        
+                        <a href="#">
+                            <img src="./images/footer-2.png" alt="住宅ローンの借り換え診断をイメージした家の模型の様子">
+                            <p>住宅ローンの借り換え診断</p>
+                        </a>
+                    </li>
+                    <li class="footer-head-card">                        
+                        <a href="#">
+                            <img src="./images/footer-3.png" alt="ライフプランや家計シミュレーションの資料を作成しているイメージ">
+                            <p>ライフプラン<br>家計シミュレーション</p>
+                        </a>
+                    </li>
+                    <li class="footer-head-card">                        
+                        <a href="#">
+                            <img src="./images/footer-4.png" alt="保険やNISAの見直しサポートについて相談しているイメージ">
+                            <p>保険・NISA見直しサポート</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-body">
+            <div class="container footer-body-inner">
+                <div class="footer-card footer-logo">
+                    <a href="#" class="logo">
+                        <span>ミライ</span>安心パートナーズ
+                    </a>
+                    <p>人生に寄り添う、<br>お金と住まいの総合コンサルティング</p>
+                </div>
+                <div class="footer-card footer-inf">
+                    <p class="footer-title">INFORMATION</p>
+                    <ul>
+                        <li class="footer-text">
+                            <a href="#">ホーム</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#">サービス紹介</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#">よくあるご質問</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#">会社概要</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#">採用情報</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#">お問い合わせ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-card footer-comp">
+                    <p class="footer-title">COMPLIANCE & POLICY</p>
+                    <ul>
+                        <li class="footer-text">
+                            <a href="#">プライバシーポリシー</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#">セキュリティポリシー</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#">ウェブアクセシビリティの取り組みについて</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#">勧誘方針</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#">お客さま本人の業務運営方針</a>
+                        </li>
+                        <li class="footer-text">
+                            <a href="#">利用規約</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-foot">
+            <p class="copyright">© 2026 Mirai Anshin Partners Corporation, All Rights Reserved.</p>
+        </div>
+    </footer>  
+</body>
+
+</html>
